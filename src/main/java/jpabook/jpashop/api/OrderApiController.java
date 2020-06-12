@@ -46,6 +46,17 @@ public class OrderApiController {
         return  collect;
     }
 
+    @GetMapping("/api/v3/orders")
+    public List<OrderDto> ordersV3() { // 패치 조인 최적화
+
+        List<Order> orders = orderRepository.findAllWithItem();
+        List<OrderDto> result = orders.stream()
+                .map(order -> new OrderDto(order))
+                .collect(Collectors.toList());
+
+        return result;
+    }
+
 
     @Data
     static class OrderDto {
