@@ -101,12 +101,22 @@ public class OrderRepository {
     }
 
     public List<Order> findAllWithItem() {
-        return em.createQuery(
-                "select distinct o from Order o" + // 1대다 조인이 있으므로 distinct로 중복조회 방지
+        return em.createQuery( // 1대다 조인이 있으므로 distinct로 중복조회 방지
+                "select distinct o from Order o" +
                         " join fetch o.member m" +
                         " join fetch o.delivery d" +
                         " join fetch o.orderItems oi" +
                         " join fetch oi.item i", Order.class)
+                .getResultList();
+    }
+
+    public List<Order> findAllWithMemberDelivery(int offset, int limit) {
+        return em.createQuery( // 페이징
+                "select o from Order o" +
+                        " join fetch o.member m" +
+                        " join fetch o.delivery d", Order.class)
+                .setFirstResult(offset)
+                .setMaxResults(limit)
                 .getResultList();
     }
 
