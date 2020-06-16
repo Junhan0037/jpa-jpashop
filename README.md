@@ -15,3 +15,7 @@
 
 ## 구조
 <img src="/src/main/resources/images/structure00.PNG" width="1024" height="400px" title="structure" alt="structure"></img><br/>
+
+## Images
+<img src="/src/main/resources/images/capture1.PNG" width="1024" height="400px" title="capture" alt="capture"></img><br/>
+<img src="/src/main/resources/images/capture2.PNG" width="1024" height="400px" title="capture" alt="capture"></img><br/>
