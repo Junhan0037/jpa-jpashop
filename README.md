@@ -9,6 +9,7 @@ JPA 학습 및 실습 (Spring boot & JPA로 구현한 쇼핑몰 웹 애플리케
 #### 3. [영속성 컨텍스트](https://www.notion.so/bafd07f6bc5b40b59633ff367544f2c7)
 #### 4. [엔티티 매핑](https://www.notion.so/65e26a59b7694705849e61050ebdcbfa)
 #### 5. [연관관계 매핑 기초](https://www.notion.so/0fc8fb7d21744407bdb2bd13e16a6714)
+#### 6. [다양한 연관관계 매핑](https://www.notion.so/d53bc72ad13549a5ac10e9ae14808ae8)
 
 ## 개발환경
 
