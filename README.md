@@ -12,6 +12,7 @@ JPA 학습 및 실습 (Spring boot & JPA로 구현한 쇼핑몰 웹 애플리케
 #### 6. [다양한 연관관계 매핑](https://www.notion.so/d53bc72ad13549a5ac10e9ae14808ae8)
 #### 7. [고급 매핑](https://www.notion.so/5f8b4d8328224bdc85afa3c0347fc093)
 #### 8. [프록시와 연관관계 관리](https://www.notion.so/4f715d2995794673a46f658cf1c5ee16)
+#### 9. [값 타입](https://www.notion.so/4704e6daf6c54e9ab1fff9df013b9e56)
 
 ## 개발환경
 
